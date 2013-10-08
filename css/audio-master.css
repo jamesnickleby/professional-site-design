@@ -1,0 +1,113 @@
+body{
+		font-family:Verdana, san-serif;
+		font-size:12px;
+		text-height:10px;
+		cursor:default;
+		background:#162424;
+		color:#162424;
+		padding:0;
+		margin:0;}
+
+	/*------ Headings ------*/
+	
+/*------ FONT -------*/ 
+@font-face {
+  font-family: 'Spirax';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Spirax-Regular'), url(http://themes.googleusercontent.com/static/fonts/spirax/v2/wiA6NnIvV_zF9oTZ_yafzA.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Just Me Again Down Here'; 
+  font-style: normal;
+  font-weight: 400;
+  src: local('Just Me Again Down Here'), local('JustMeAgainDownHere'), url(http://themes.googleusercontent.com/static/fonts/justmeagaindownhere/v5/sN06iTc9ITubLTgXoG-kc4M0m1RcppnZ3Z3GZDDNlQw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bad Script Regular'), local('BadScript-Regular'), url(http://themes.googleusercontent.com/static/fonts/badscript/v2/rL_b2ND61EQmMOJ8CRr1fhsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Euphoria Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Euphoria Script'), local('EuphoriaScript-Regular'), url(http://themes.googleusercontent.com/static/fonts/euphoriascript/v1/c4XB4Iijj_NvSsCF4I0O2DVi_4UGEKHjyEZCTqR5Ysg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Griffy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Griffy'), local('Griffy-Regular'), url(http://themes.googleusercontent.com/static/fonts/griffy/v1/f4FUXlL5FPqftKJ2T0mqXg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Jolly Lodger';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jolly Lodger'), local('JollyLodger'), url(http://themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Leckerli One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Leckerli One'), local('LeckerliOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/leckerlione/v4/S2Y_iLrItTu8kIJTkS7DrHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+		h1,h2,h3,h4,h5,h6{
+			margin:0; padding:0;
+			font-family: Consolas, Georgia,"Times New Roman", serif;}
+
+		h1{font-size:120%}
+		h2{font-size:130%}
+		h3{font-size:150%}
+		h4{font-size:180%}
+		h5{font-size:230%}
+		h6{font-size:310%}
+		
+		a:hover{
+		color:#162424;
+		text-decoration: underline;}
+		
+		#page-container{
+		width:100%;
+		margin:0;
+		padding:0;}
+		
+		#wrap{
+		position:relative;
+		background: #e6e6e6;
+		width:100%;
+		padding:0px; margin:0px;
+		-webkit-box-shadow: 0 1px 7px hsla(0, 0%, 0%, .2);
+		   -moz-box-shadow: 0 1px 7px hsla(0, 0%, 0%, .2);
+	            box-shadow: 0 1px 7px hsla(0, 0%, 0%, .2);}
+		
+		#content{
+		margin:inherit;
+		padding:50px 20px 50px 20px;
+		margin:auto;
+		width:824px;}
+		
+		#box{
+		background: #ffffff;
+		width: 824px;
+		padding: 10px 20px 20px 20px;
+		-webkit-box-shadow: 0 1px 7px hsla(0, 0%, 0%, .2);
+		   -moz-box-shadow: 0 1px 7px hsla(0, 0%, 0%, .2);
+				box-shadow: 0 1px 7px hsla(0, 0%, 0%, .2);}
+				
+		#footer{
+		font-family: Georgia;
+		text-align: center;
+		color: #829595;
+		padding-top: 20px;
+		text-shadow: 0 0 0.2em #597272;
+		}
+				
+		.tall{
+		font-size: 20px;
+		font-family: Arial, sans-serif;
+		}
